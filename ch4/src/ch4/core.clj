@@ -140,11 +140,11 @@
   "I don't do a whole lot."
   []
   ;(time (println (identify-vampire (range 0 40000))))
-  (time (take 100 (even-numbers)))
-  (time (take 300 (even-numbers)))
-  (time (take 600 (even-numbers)))
-  (time (take 900 (even-numbers)))
-  (time (take 2000 (even-numbers)))
+  ;(time (take 100 (even-numbers)))
+  ;(time (take 300 (even-numbers)))
+  ;(time (take 600 (even-numbers)))
+  ;(time (take 900 (even-numbers)))
+  ;(time (take 2000 (even-numbers)))
 
   ;(println (parse-food-journal #(< (:month %) 4) food-journal))
   ;(println (map-as-reduce #(* 2 (:val (second %))) {:first {:val 1} :second {:val 2} :third {:val 3}}))
